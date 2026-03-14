@@ -1,4 +1,4 @@
-# RICS Price List
+# SittingCrown311 Price List
 
 A GitHub Pages site for displaying RICS mod purchase lists.
 

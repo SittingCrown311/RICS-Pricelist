@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SettingsBlock>
-	<ModSettings Class="Sandy_Detailed_RPG_Inventory.Sandy_RPG_Settings">
-		<displayAllSlots>True</displayAllSlots>
-		<Frame_2px>True</Frame_2px>
-	</ModSettings>
-</SettingsBlock>

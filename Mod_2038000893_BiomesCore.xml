@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SettingsBlock>
-	<ModSettings Class="BiomesCore.ModSettings.Settings">
-		<SetCustomGrowingHoursToAll>True</SetCustomGrowingHoursToAll>
-		<deepWaterStandable>True</deepWaterStandable>
-	</ModSettings>
-</SettingsBlock>

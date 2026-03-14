@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MinesAutomated.Settings">
+		<disableLogging>True</disableLogging>
+		<disableExtensions>True</disableExtensions>
+		<enableStoneChunks>True</enableStoneChunks>
+		<globalWorkamount>50</globalWorkamount>
+		<globalYield>200</globalYield>
+		<uraniumWorkamount>200</uraniumWorkamount>
+		<uraniumYield>200</uraniumYield>
+		<jadeWorkamount>200</jadeWorkamount>
+		<jadeYield>200</jadeYield>
+		<obsidianWorkamount>200</obsidianWorkamount>
+		<obsidianYield>200</obsidianYield>
+		<eltexWorkamount>200</eltexWorkamount>
+		<eltexYield>200</eltexYield>
+		<jadeWorkamount>200</jadeWorkamount>
+		<jadeYield>200</jadeYield>
+		<jadeWorkamount>200</jadeWorkamount>
+		<jadeYield>200</jadeYield>
+	</ModSettings>
+</SettingsBlock>

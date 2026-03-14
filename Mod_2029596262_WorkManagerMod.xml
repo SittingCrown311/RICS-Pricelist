@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="LordKuper.WorkManager.Settings">
+		<Version>1</Version>
+		<AssignAllWorkTypes>True</AssignAllWorkTypes>
+		<PassionPriorities>
+			<keys>
+				<li>None</li>
+				<li>Minor</li>
+				<li>Major</li>
+			</keys>
+			<values>
+				<li>0</li>
+				<li>3</li>
+				<li>4</li>
+			</values>
+		</PassionPriorities>
+		<UseLearningRatesPriorities>True</UseLearningRatesPriorities>
+		<WorkTypeRules>
+			<li>
+				<AllowedWorkers>
+					<FilterPawnTypes>True</FilterPawnTypes>
+					<AllowedPawnTypes>
+						<li>Colonist</li>
+						<li>Guest</li>
+						<li>Slave</li>
+					</AllowedPawnTypes>
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<FilterPawnHealthStates>True</FilterPawnHealthStates>
+					<AllowedPawnHealthStates>Healthy</AllowedPawnHealthStates>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<FilterWorkPassions>False</FilterWorkPassions>
+					<AllowedWorkPassions />
+					<FilterPawnTraits>False</FilterPawnTraits>
+					<PawnTraitLimits />
+					<FilterPawnCapacities>False</FilterPawnCapacities>
+					<PawnCapacityLimits />
+					<FilterWorkCapacities>False</FilterWorkCapacities>
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<FilterPawnSkills>False</FilterPawnSkills>
+					<PawnSkillLimits />
+					<FilterPawnStats>False</FilterPawnStats>
+					<PawnStatLimits />
+					<FilterPawnPrimaryWeaponTypes>False</FilterPawnPrimaryWeaponTypes>
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>False</AssignEveryone>
+				<EnsureWorkerAssigned>True</EnsureWorkerAssigned>
+				<MinWorkerNumber>1</MinWorkerNumber>
+				<DedicatedWorkerSettings>
+					<Mode>CapablePawnRatio</Mode>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Firefighter</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<FilterPawnHealthStates>True</FilterPawnHealthStates>
+					<AllowedPawnHealthStates>Healthy, Resting</AllowedPawnHealthStates>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<EnsureWorkerAssigned>False</EnsureWorkerAssigned>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<AllowDedicated>False</AllowDedicated>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Patient</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<FilterPawnHealthStates>True</FilterPawnHealthStates>
+					<AllowedPawnHealthStates>Healthy, Resting, NeedsTending, Downed, Mental</AllowedPawnHealthStates>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<EnsureWorkerAssigned>False</EnsureWorkerAssigned>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<AllowDedicated>False</AllowDedicated>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>PatientBedRest</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<FilterPawnHealthStates>True</FilterPawnHealthStates>
+					<AllowedPawnHealthStates>Healthy, Resting, NeedsTending, Downed, Mental</AllowedPawnHealthStates>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<EnsureWorkerAssigned>False</EnsureWorkerAssigned>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<AllowDedicated>False</AllowDedicated>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>BasicWorker</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<EnsureWorkerAssigned>False</EnsureWorkerAssigned>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<AllowDedicated>False</AllowDedicated>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Hauling</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<AssignEveryonePriority>4</AssignEveryonePriority>
+				<EnsureWorkerAssigned>True</EnsureWorkerAssigned>
+				<MinWorkerNumber>1</MinWorkerNumber>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Cleaning</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>True</AssignEveryone>
+				<AssignEveryonePriority>4</AssignEveryonePriority>
+				<EnsureWorkerAssigned>True</EnsureWorkerAssigned>
+				<MinWorkerNumber>1</MinWorkerNumber>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Doctor</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<FilterPawnHealthStates>True</FilterPawnHealthStates>
+					<AllowedPawnHealthStates>Healthy, Resting</AllowedPawnHealthStates>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<AllowedPawnPrimaryWeaponTypes />
+				</AllowedWorkers>
+				<AssignEveryone>False</AssignEveryone>
+				<EnsureWorkerAssigned>True</EnsureWorkerAssigned>
+				<MinWorkerNumber>2</MinWorkerNumber>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<Mode>PawnCount</Mode>
+					<PawnCountFilter>
+						<FilterPawnTypes>True</FilterPawnTypes>
+						<AllowedPawnTypes>
+							<li>Colonist</li>
+							<li>Guest</li>
+							<li>Slave</li>
+							<li>Prisoner</li>
+							<li>Animal</li>
+						</AllowedPawnTypes>
+						<ForbiddenPawnTypes />
+						<FilterPawnHealthStates>True</FilterPawnHealthStates>
+						<AllowedPawnHealthStates>NeedsTending</AllowedPawnHealthStates>
+						<FilterWorkPassions>False</FilterWorkPassions>
+						<AllowedWorkPassions />
+						<FilterPawnTraits>False</FilterPawnTraits>
+						<PawnTraitLimits />
+						<FilterPawnCapacities>False</FilterPawnCapacities>
+						<PawnCapacityLimits />
+						<FilterWorkCapacities>False</FilterWorkCapacities>
+						<WorkCapacityLimits>
+							<keys />
+							<values />
+						</WorkCapacityLimits>
+						<FilterPawnSkills>False</FilterPawnSkills>
+						<PawnSkillLimits />
+						<FilterPawnStats>False</FilterPawnStats>
+						<PawnStatLimits />
+						<FilterPawnPrimaryWeaponTypes>False</FilterPawnPrimaryWeaponTypes>
+						<AllowedPawnPrimaryWeaponTypes />
+					</PawnCountFilter>
+				</DedicatedWorkerSettings>
+			</li>
+			<li>
+				<DefName>Hunting</DefName>
+				<AllowedWorkers>
+					<TriStateMode>True</TriStateMode>
+					<AllowedPawnTypes />
+					<ForbiddenPawnTypes>
+						<li>Undefined</li>
+						<li>Prisoner</li>
+						<li>Animal</li>
+					</ForbiddenPawnTypes>
+					<ForbiddenPawnHealthStates>Dead</ForbiddenPawnHealthStates>
+					<AllowedWorkPassions />
+					<PawnTraitLimits />
+					<PawnCapacityLimits />
+					<WorkCapacityLimits>
+						<keys />
+						<values />
+					</WorkCapacityLimits>
+					<PawnSkillLimits />
+					<PawnStatLimits />
+					<FilterPawnPrimaryWeaponTypes>True</FilterPawnPrimaryWeaponTypes>
+					<AllowedPawnPrimaryWeaponTypes>
+						<li>Ranged</li>
+					</AllowedPawnPrimaryWeaponTypes>
+				</AllowedWorkers>
+				<AssignEveryone>False</AssignEveryone>
+				<EnsureWorkerAssigned>False</EnsureWorkerAssigned>
+				<DedicatedWorkerSettings>
+					<TriStateMode>True</TriStateMode>
+					<AllowDedicated IsNull="True" />
+					<PawnCountFilter IsNull="True" />
+				</DedicatedWorkerSettings>
+			</li>
+		</WorkTypeRules>
+		<ColonistWorkShifts>
+			<li>
+				<_hours>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+				</_hours>
+			</li>
+			<li>
+				<_hours>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Joy</li>
+					<li>Joy</li>
+				</_hours>
+				<PawnThreshold>6</PawnThreshold>
+			</li>
+			<li>
+				<_hours>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Joy</li>
+				</_hours>
+				<PawnThreshold>9</PawnThreshold>
+			</li>
+		</ColonistWorkShifts>
+		<NightOwlWorkShifts>
+			<li>
+				<_hours>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Anything</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Sleep</li>
+					<li>Joy</li>
+					<li>Joy</li>
+					<li>Work</li>
+					<li>Work</li>
+					<li>Work</li>
+				</_hours>
+			</li>
+		</NightOwlWorkShifts>
+	</ModSettings>
+</SettingsBlock>

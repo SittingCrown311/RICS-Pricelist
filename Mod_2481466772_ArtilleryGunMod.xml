@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ArtilleryGun.ArtilleryGunSettings">
+		<EnableSiegesLabel>True</EnableSiegesLabel>
+	</ModSettings>
+</SettingsBlock>

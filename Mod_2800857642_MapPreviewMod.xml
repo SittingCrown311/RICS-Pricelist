@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="MapPreview.MapPreviewSettings">
+		<LockWindowPositions>True</LockWindowPositions>
+		<AutoOpenPreviewOnWorldMap>True</AutoOpenPreviewOnWorldMap>
+		<EnableWorldSeedRerollFeature>True</EnableWorldSeedRerollFeature>
+		<CompatibilityMode>True</CompatibilityMode>
+		<PreviewWindowSize>395.955872</PreviewWindowSize>
+		<PreviewWindowPos>(1474, 105)</PreviewWindowPos>
+		<ToolbarWindowPos>(1474, 50)</ToolbarWindowPos>
+	</ModSettings>
+</SettingsBlock>

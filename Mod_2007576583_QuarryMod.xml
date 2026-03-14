@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Quarry.QuarrySettings">
+		<QRY_letterSent>True</QRY_letterSent>
+		<QRY_allowRottable>True</QRY_allowRottable>
+		<QRY_quarryMaxHealth>10100</QRY_quarryMaxHealth>
+		<QRY_junkChance>0</QRY_junkChance>
+		<QRY_chunkChance>0</QRY_chunkChance>
+		<QRY_mineTicksAverage>30</QRY_mineTicksAverage>
+		<QRY_mineTicksVariance>27</QRY_mineTicksVariance>
+		<QRY_reclaimedSoilFertility>0</QRY_reclaimedSoilFertility>
+		<QRY_OreDictionary>
+			<li>
+				<thingDef>Steel</thingDef>
+			</li>
+			<li>
+				<thingDef>Silver</thingDef>
+			</li>
+			<li>
+				<thingDef>Gold</thingDef>
+			</li>
+			<li>
+				<thingDef>Uranium</thingDef>
+			</li>
+			<li>
+				<thingDef>Plasteel</thingDef>
+				<count>1000</count>
+			</li>
+			<li>
+				<thingDef>Jade</thingDef>
+			</li>
+			<li>
+				<thingDef>Obsidian</thingDef>
+			</li>
+			<li>
+				<thingDef>VPE_Eltex</thingDef>
+			</li>
+			<li>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>1000</count>
+			</li>
+		</QRY_OreDictionary>
+	</ModSettings>
+</SettingsBlock>

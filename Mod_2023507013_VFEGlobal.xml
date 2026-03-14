@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VEF.VFEGlobalSettings">
+		<toggablePatch>
+			<keys />
+			<values />
+		</toggablePatch>
+		<enableVerboseLogging>True</enableVerboseLogging>
+		<randomStartsAsRandom>True</randomStartsAsRandom>
+		<hideRandomizeButtons>True</hideRandomizeButtons>
+		<disableModSourceReport>True</disableModSourceReport>
+		<weatherDamagesOptions>
+			<keys>
+				<li>VPE_Hurricane</li>
+			</keys>
+			<values>
+				<li>True</li>
+			</values>
+		</weatherDamagesOptions>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ColoredMoodBar13.MoodPatchSettings">
+		<BreakBoxOnTop>True</BreakBoxOnTop>
+		<NeutralBreakBox>True</NeutralBreakBox>
+		<ScheduleBox>True</ScheduleBox>
+		<ForcePortrait>True</ForcePortrait>
+		<RelationIcon>True</RelationIcon>
+		<ShowGender>True</ShowGender>
+	</ModSettings>
+</SettingsBlock>

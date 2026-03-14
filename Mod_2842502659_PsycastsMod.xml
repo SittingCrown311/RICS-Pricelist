@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="VanillaPsycastsExpanded.PsycastSettings">
+		<xpPerPercent>10</xpPerPercent>
+		<baseSpawnChance>1</baseSpawnChance>
+		<additionalAbilityChance>1</additionalAbilityChance>
+		<muteSkipdoor>True</muteSkipdoor>
+		<smallMode>On</smallMode>
+		<maxLevel>300</maxLevel>
+		<changeFocusGain>True</changeFocusGain>
+	</ModSettings>
+</SettingsBlock>

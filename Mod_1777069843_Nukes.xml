@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Nukes.NukesSettings">
+		<nukes-radiationEnabled>True</nukes-radiationEnabled>
+		<nukes-radiationLevel>1.0476191</nukes-radiationLevel>
+		<nukes-radiationAirburst>True</nukes-radiationAirburst>
+		<nukes-pollutionMultiplier>1</nukes-pollutionMultiplier>
+		<nukes-customSounds>True</nukes-customSounds>
+		<nukes-glassingEnabled>True</nukes-glassingEnabled>
+		<nukes-pollutionEnabled>True</nukes-pollutionEnabled>
+	</ModSettings>
+</SettingsBlock>

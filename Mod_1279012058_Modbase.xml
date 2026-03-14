@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<SettingsBlock>
-	<ModSettings Class="PickUpAndHaul.Settings">
-		<allowCorpses>True</allowCorpses>
-		<maximumOccupiedCapacityToConsiderHauling>0</maximumOccupiedCapacityToConsiderHauling>
-	</ModSettings>
-</SettingsBlock>
